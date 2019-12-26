@@ -13,7 +13,6 @@ const htmlWebpackPluginConfig = {
 }
 
 const entry = [
-  '@babel/polyfill',
   './example/index.js',
 ]
 
@@ -50,7 +49,7 @@ module.exports = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
+        loader: 'babel-loader'
       },
       {
         test: /\.styl$/,

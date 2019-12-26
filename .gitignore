@@ -4,3 +4,5 @@ lib
 build
 coverage
 es
+.idea
+*.log
